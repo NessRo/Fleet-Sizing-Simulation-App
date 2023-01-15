@@ -8,7 +8,7 @@ import os, uuid
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, __version__
 
 
-connect_str = 'DefaultEndpointsProtocol=https;AccountName=railsimapi;AccountKey=jSI/FlDL5zXG9dRKgPasV2LfPQf9YC4wfP04qWpTtKfrHXvXlYq6S5zioNo4UyMlhPOJ8bPldJnx+AStffklJQ==;EndpointSuffix=core.windows.net'
+connect_str = ''
 
 def Make_file(results, process_id, fp):
     
