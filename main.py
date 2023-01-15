@@ -42,7 +42,7 @@ async def get_file(id: str):
     'Content-Disposition': 'attachment; filename="filename.xlsx"'
      }
     
-    connect_str = 'DefaultEndpointsProtocol=https;AccountName=railsimapi;AccountKey=jSI/FlDL5zXG9dRKgPasV2LfPQf9YC4wfP04qWpTtKfrHXvXlYq6S5zioNo4UyMlhPOJ8bPldJnx+AStffklJQ==;EndpointSuffix=core.windows.net'
+    connect_str = ''
 
     process_id = id
     fp = process_id + ".xlsx"
