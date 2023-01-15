@@ -1,0 +1,13 @@
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
+
+
+fastapi
+uvicorn
+uvloop
+httptools
+pandas
+scipy
+openpyxl
+numpy
+matplotlib
+azure-storage-blob
